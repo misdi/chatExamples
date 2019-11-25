@@ -425,7 +425,7 @@ public class MainActivity extends AppCompatActivity
 
     private FirebaseAnalytics mFirebaseAnalytics;
     private void logMessageSent() {
-        // Log message has been sent.
+        // Log message has been sent. hello
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         FirebaseAnalytics.getInstance(this).logEvent("message", null);
     }
